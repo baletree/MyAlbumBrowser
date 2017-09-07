@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/browserByLocateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="本地图片浏览"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/browserByNetTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="网络图片浏览"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dialogTestTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="弹窗式的Activity"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/testRecyclerTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="分组悬浮标题"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/emojiShowTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Android自带表情显示"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/refreshLoadRvTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="RecyclerView的刷新和加载"
+        android:textSize="18sp" />
+</LinearLayout>
